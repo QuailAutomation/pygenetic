@@ -22,7 +22,7 @@ setuptools.setup(
     ),
     install_requires=[
           'rstr==2.2.6',
-          'numpy==1.20.0',
+          'numpy>1.20.0',
           'matplotlib>3.3.4',
       ],
 )
